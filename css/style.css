@@ -1,0 +1,85 @@
+
+body{
+background: url('../images/background1.jpg');
+    background-repeat: repeat+x;
+}
+
+p {
+font-family: 'Oswald', sans-serif;
+
+}
+
+h1 {
+font-family: 'Roboto Mono', monospace;
+}
+
+
+#wrapper {
+
+width:70%;
+margin:auto;
+background: hsla(0,0%,100%,0.94);
+
+}
+
+ul#social {
+list-style-type:none;
+display:flex;
+}
+
+ul#socail li{
+float:left;
+}
+
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+nav ul li a:hover {
+  background-color: #111;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: #2196F3;
+  padding: 10px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 2px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+
+footer {
+background: hsla(0,0%,100%,0.94);
+}
+
+footer ul li img {
+   width:30%;
+}
+
+#hero{
+background: url('../images/fake-news-hero.jpg');
+height: 300px;
+}
